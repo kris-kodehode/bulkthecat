@@ -1,12 +1,19 @@
 body {
 
+    margin: 0;
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.photos {
+
+    column-count: 4;
+    column-gap: 0;
+    line-height: 0;
 }
 
 img {
 
-    max-height: 500px;
+    width: 100%;
 }

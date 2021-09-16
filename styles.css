@@ -2,8 +2,6 @@ body {
 
     margin: 0;
     width: 100vw;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .photos {

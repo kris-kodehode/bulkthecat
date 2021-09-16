@@ -1,14 +1,37 @@
 body {
 
     margin: 0;
-    width: 100vw;
+    background: url(images/cow.png);
 }
 
 .photos {
 
+    margin: 0 auto;
+    width: 90%;
     column-count: 4;
     column-gap: 0;
     line-height: 0;
+}
+
+@font-face { font-family: MeowsNepilRegular; src: url('font/MeowsNepilRegular.ttf'); } 
+@font-face { font-family: MeowsNepilRegular; font-weight: bold; src: url('font/MeowsNepilRegular.ttf');}
+
+.topbar {
+
+    height: 150px;
+    font-family: "MeowsNepilRegular";
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 3px black;
+    color: white;
+}
+
+video {
+
+    width: 100%;
 }
 
 img {
